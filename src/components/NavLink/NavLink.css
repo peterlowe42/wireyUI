@@ -1,0 +1,30 @@
+:root {
+  --navitem-padding: 10px;
+  --navitem-border: 1px solid black;
+  --navitem-background: transparent;
+  --navitem-hover-background: var(--light-grey);
+  --navlink-color: var(--base-text-color);
+}
+
+.wu-navItem {
+  cursor: pointer;
+  padding: var(--navitem-padding);
+  background: var(--navitem-background);
+  border: var(--navitem-border);
+  width: 100%;
+}
+
+.wu-navItem:hover {
+  background: var(--navitem-hover-background);
+}
+
+.wu-navLink {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+
+@media (min-width: 700px) {
+  .wu-navItem {
+    width: unset;
+  }
+}
