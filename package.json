@@ -1,0 +1,24 @@
+{
+  "name": "wireyui",
+  "version": "1.0.0",
+  "description": "A simple react component library",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterlowe42/wieyUI.git"
+  },
+  "author": "Peter Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterlowe42/wieyUI/issues"
+  },
+  "homepage": "https://github.com/peterlowe42/wieyUI#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+  --btn-padding: 20px;
+  --btn-background: transparent;
+  --btn-hover-background: grey;
+  --btn-border-radius: none;
+  --border-standard: 1px solid black;
+}
+
+.wu-btn {
+  padding: calc(var(--btn-padding)/2) var(--btn-padding);
+  background: var(--btn-background);
+  border: var(--border-standard);
+  border-radius: var(--btn-border-radius);
+}
+
+.wu-btn:hover {
+  cursor: pointer;
+  background: var(--btn-hover-background);
+}
