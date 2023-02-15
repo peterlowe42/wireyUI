@@ -4,7 +4,7 @@ import "./HeaderNav.css"
 
 export interface HeaderNavProps {
   navLabel: string,
-  children: JSX.Element,
+  children: JSX.Element[],
 }
 
 const HeaderNav = ({ children, navLabel }:HeaderNavProps):JSX.Element => {

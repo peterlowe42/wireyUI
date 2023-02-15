@@ -3,3 +3,8 @@
   --base-border: 1px solid black;
   --light-grey: #d3d3d3;
 }
+
+.collapse:not(.show) {
+  height: 0;
+  overflow: hidden;
+}
