@@ -4,12 +4,12 @@ import "./SlideDown.css"
 
 export interface SlideDownProps {
   isOpen: boolean,
-  children: JSX.Element[]
+  children: JSX.Element | JSX.Element[]
 }
 
 const SlideDown = ({ children, isOpen }:SlideDownProps):JSX.Element => {
   const slideRef = useRef<HTMLDivElement>(null)
-  const firstPaint = useRef(true)
+  const firstPaint = useRef<boolean>(true)
   const prevOpen = usePrev(isOpen)
 
   const slideUp = () => {

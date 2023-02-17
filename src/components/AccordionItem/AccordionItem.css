@@ -3,10 +3,6 @@
   --accordion-padding: 1rem 1rem;
 }
 
-.wu-accordion-body {
-  border: var(--accordion-border);
-  padding: var(--accordion-padding);
-}
 .wu-accordion-button{
   width: 100%;
   display: flex;

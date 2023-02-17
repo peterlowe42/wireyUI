@@ -1,0 +1,4 @@
+.wu-accordion .wu-slidedown-container {
+  border: var(--accordion-border);
+  border-top: none;
+}
