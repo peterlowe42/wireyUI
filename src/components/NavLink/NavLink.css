@@ -6,7 +6,7 @@
   --navlink-color: var(--base-text-color);
 }
 
-.wu-navItem {
+.wu-navLink{
   cursor: pointer;
   padding: var(--navitem-padding);
   background: var(--navitem-background);
@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-.wu-navItem:hover {
+.wu-navLink:hover {
   background: var(--navitem-hover-background);
 }
 
@@ -25,6 +25,6 @@
 
 @media (min-width: 700px) {
   .wu-navItem {
-    width: unset;
+    width: revert;
   }
 }

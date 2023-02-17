@@ -1,0 +1,15 @@
+:root {
+  --wu-slide-duration: 300ms;
+  --wu-slide-easing: ease-in-out;
+}
+
+.wu-slidedown-container {
+  height: 0;
+  overflow: hidden;
+  transition: height var(--wu-slide-duration) var(--wu-slide-easing);
+}
+
+.wu-slidedown-container.open {
+  height: auto;
+  overflow: visible;
+}
