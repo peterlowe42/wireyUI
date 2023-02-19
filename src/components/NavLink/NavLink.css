@@ -1,17 +1,26 @@
 :root {
   --navitem-padding: 10px;
-  --navitem-border: 1px solid black;
+  --navitem-divider: 1px solid black;
   --navitem-background: transparent;
   --navitem-hover-background: var(--light-grey);
   --navlink-color: var(--base-text-color);
 }
 
+.wu-navItem{
+  width: 100%;
+}
+
 .wu-navLink{
   cursor: pointer;
+  display: block;
+  text-align: center;
   padding: var(--navitem-padding);
   background: var(--navitem-background);
-  border: var(--navitem-border);
   width: 100%;
+}
+
+.wu-navLink:not(:last-child) {
+  border-bottom: var(--navitem--divider)
 }
 
 .wu-navLink:hover {
